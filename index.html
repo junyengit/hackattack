@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hackattack House — A Hacker House in Los Angeles</title>
+  <meta name="description" content="Hackattack House is a live-and-build hacker house in Los Angeles. The entire 7th floor at 6100 Wilshire Blvd — a clean workspace for founders, with apartments to live out of." />
+
+  <!-- Favicon / icons -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <meta name="theme-color" content="#14110f" />
+
+  <!-- Social share card.
+       NOTE: set the real domain below once deployed — og:url / og:image
+       should be absolute URLs for previews to render on most platforms. -->
+  <meta property="og:title" content="Hackattack House — A Hacker House in Los Angeles" />
+  <meta property="og:description" content="Live and build with the best founders in LA. The entire 7th floor at 6100 Wilshire Blvd." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hackattackhouse.com/" />
+  <meta property="og:image" content="https://hackattackhouse.com/og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hackattack House — A Hacker House in Los Angeles" />
+  <meta name="twitter:description" content="Live and build with the best founders in LA. The entire 7th floor at 6100 Wilshire Blvd." />
+  <meta name="twitter:image" content="https://hackattackhouse.com/og.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand">
+        <span class="nav__mark"></span>
+        Hackattack&nbsp;House
+      </a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="#space">The Space</a>
+        <a href="#live">Live</a>
+        <a href="#work">Work</a>
+        <a href="#view">View</a>
+        <a href="#community">Community</a>
+        <a href="#location">Location</a>
+        <a href="#faq">FAQ</a>
+        <a href="#apply" class="btn btn--small nav__cta">Apply</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero__grid">
+      <div class="hero__content reveal">
+        <div class="eyebrow">Los Angeles · 6100 Wilshire Blvd</div>
+        <h1 class="hero__title">
+          A hacker house<br />
+          built for the <em>best</em><br />
+          founders in LA.
+        </h1>
+        <p class="hero__lede">
+          We took the entire 7th floor on the Miracle Mile and turned it into
+          one clean place to live and build. Apartments to sleep in, a quiet
+          studio to ship from, and the kind of people you want in the room at 2am.
+        </p>
+        <div class="hero__actions">
+          <a href="#apply" class="btn">Apply to live here</a>
+          <a href="#location" class="btn btn--ghost">Book a tour</a>
+        </div>
+        <div class="hero__meta">
+          <span>Now accepting residents</span>
+          <span class="dot">·</span>
+          <span>Rolling applications</span>
+        </div>
+      </div>
+
+      <!-- Replace this block's background-image in styles.css (.hero__photo) with a real photo of the space -->
+      <div class="hero__photo reveal" aria-hidden="true">
+        <div class="hero__photo-tag">The 7th Floor · 6100 Wilshire</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS BAND ============ -->
+  <section class="stats">
+    <div class="stats__inner">
+      <div class="stat reveal">
+        <div class="stat__num">1</div>
+        <div class="stat__label">Entire floor, ours alone</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num">24/7</div>
+        <div class="stat__label">Keycard access, always open</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num">∞</div>
+        <div class="stat__label">Late-night kitchen conversations</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num">0</div>
+        <div class="stat__label">Reasons to commute</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THE SPACE ============ -->
+  <section class="section" id="space">
+    <div class="section__head reveal">
+      <div class="eyebrow">The Space</div>
+      <h2>One clean floor. Nothing in the way of the work.</h2>
+      <p class="section__lede">
+        We modeled Wilshire House on the residencies that made San Francisco —
+        then gave it room to breathe. White walls, warm wood, good light, and
+        a layout that quietly separates where you sleep from where you ship.
+      </p>
+    </div>
+
+    <div class="features">
+      <article class="feature reveal">
+        <div class="feature__icon">◗</div>
+        <h3>A studio, not an office</h3>
+        <p>Sit-stand desks, fast fiber, monitors on request, and phone rooms for the calls that matter. Designed to be silent when you need it and loud when you don't.</p>
+      </article>
+      <article class="feature reveal">
+        <div class="feature__icon">◍</div>
+        <h3>A real kitchen</h3>
+        <p>Stocked, communal, and always open. Most of the best ideas here start at the counter at midnight, not in a meeting.</p>
+      </article>
+      <article class="feature reveal">
+        <div class="feature__icon">◆</div>
+        <h3>Rooms to demo</h3>
+        <p>A lounge that converts to a demo space for Friday show-and-tells, investor visits, and the occasional too-late launch party.</p>
+      </article>
+      <article class="feature reveal">
+        <div class="feature__icon">◈</div>
+        <h3>Light everywhere</h3>
+        <p>Seventh-floor windows wrap the Miracle Mile. You'll watch the sun go down over LA without leaving your desk.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="gallery" id="gallery">
+    <figure class="gallery__item reveal">
+      <picture>
+        <source srcset="photos/hackattack-wall.webp" type="image/webp" />
+        <img src="photos/hackattack-wall.jpg" alt="Open floor with the HACKATTACK wall and wraparound windows over Los Angeles" loading="lazy" />
+      </picture>
+      <figcaption>The floor</figcaption>
+    </figure>
+    <figure class="gallery__item reveal">
+      <picture>
+        <source srcset="photos/desks.webp" type="image/webp" />
+        <img src="photos/desks.jpg" alt="Open studio with standing desks and floor-to-ceiling windows" loading="lazy" />
+      </picture>
+      <figcaption>The studio</figcaption>
+    </figure>
+    <figure class="gallery__item reveal">
+      <picture>
+        <source srcset="photos/kitchen.webp" type="image/webp" />
+        <img src="photos/kitchen.jpg" alt="Full kitchen with island, fridge and seating" loading="lazy" />
+      </picture>
+      <figcaption>The kitchen</figcaption>
+    </figure>
+    <figure class="gallery__item reveal">
+      <picture>
+        <source srcset="photos/offices.webp" type="image/webp" />
+        <img src="photos/offices.jpg" alt="Hallway with glass-walled private offices and city views" loading="lazy" />
+      </picture>
+      <figcaption>Private offices</figcaption>
+    </figure>
+    <figure class="gallery__item reveal">
+      <picture>
+        <source srcset="photos/floorwide.webp" type="image/webp" />
+        <img src="photos/floorwide.jpg" alt="Long desk rows with monitors and wraparound windows over Los Angeles" loading="lazy" />
+      </picture>
+      <figcaption>Room to build</figcaption>
+    </figure>
+    <figure class="gallery__item reveal">
+      <picture>
+        <source srcset="photos/studio.webp" type="image/webp" />
+        <img src="photos/studio.jpg" alt="Founders working at the open desks" loading="lazy" />
+      </picture>
+      <figcaption>Heads down</figcaption>
+    </figure>
+  </section>
+
+  <!-- ============ LIVE ============ -->
+  <section class="split" id="live">
+    <!-- Swap .split__media background-image for a real apartment photo -->
+    <div class="split__media split__media--live reveal" aria-hidden="true">
+      <span class="split__media-tag">A furnished studio, 5 min away</span>
+    </div>
+    <div class="split__content reveal">
+      <div class="eyebrow">Live</div>
+      <h2>Live where you build.</h2>
+      <p>
+        You shouldn't have to choose between sleep and shipping. There are two
+        ways to stay close to the floor — pick what fits your stage.
+      </p>
+
+      <div class="live-options">
+        <article class="live-option">
+          <div class="live-option__tag">Option 1</div>
+          <h3>Five minutes away</h3>
+          <p>Private, fully-furnished studios a short walk from the office — your own bed, bath, and kitchenette, like the one pictured. Walk in each morning, close the door on work each night.</p>
+        </article>
+        <article class="live-option">
+          <div class="live-option__tag">Option 2</div>
+          <h3>On the floor</h3>
+          <p>Claim one of the closed-off private offices as your own room and live where you build. For the founders who don't really clock out.</p>
+        </article>
+      </div>
+
+      <a href="#apply" class="btn btn--ghost">Ask about availability</a>
+    </div>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section class="split split--reverse" id="work">
+    <!-- Swap .split__media background-image for a real workspace photo -->
+    <div class="split__media split__media--work reveal" aria-hidden="true">
+      <span class="split__media-tag">The studio</span>
+    </div>
+    <div class="split__content reveal">
+      <div class="eyebrow">Work</div>
+      <h2>Build next to people who are also all-in.</h2>
+      <p>
+        The whole point of a hacker house is the room. You're surrounded by
+        founders shipping real things — pre-seed, post-raise, mid-pivot — and
+        that pressure is the product. We just keep the lights on, the fridge
+        full, and the distractions out.
+      </p>
+      <ul class="ticks">
+        <li>Dedicated desk in the shared studio</li>
+        <li>Gigabit fiber & redundant wifi</li>
+        <li>Phone rooms & focus pods</li>
+        <li>24/7 keycard access to the floor</li>
+      </ul>
+      <a href="#apply" class="btn btn--ghost">Apply to build here</a>
+    </div>
+  </section>
+
+  <!-- ============ VIEW ============ -->
+  <section class="view" id="view">
+    <div class="view__inner reveal">
+      <div class="eyebrow eyebrow--light">The view</div>
+      <h2>Build with the whole city in the window.</h2>
+      <p>
+        Floor-to-ceiling glass wraps the entire seventh floor — the Hollywood
+        Hills to the north, the Miracle Mile and the Pacific haze to the west.
+        Watch the sun go down over Los Angeles without ever leaving your desk.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ COMMUNITY ============ -->
+  <section class="section section--tint" id="community">
+    <div class="section__head reveal">
+      <div class="eyebrow">Community</div>
+      <h2>A house, not a co-working space.</h2>
+      <p class="section__lede">
+        The difference is the people. We curate the room carefully and keep it
+        small. What happens after that mostly takes care of itself.
+      </p>
+    </div>
+
+    <div class="rhythm">
+      <div class="rhythm__item reveal">
+        <div class="rhythm__day">Mon</div>
+        <div class="rhythm__body"><strong>Family dinner.</strong> The whole house, one table, no laptops.</div>
+      </div>
+      <div class="rhythm__item reveal">
+        <div class="rhythm__day">Wed</div>
+        <div class="rhythm__body"><strong>Office hours.</strong> Operators and investors drop by to unblock you.</div>
+      </div>
+      <div class="rhythm__item reveal">
+        <div class="rhythm__day">Fri</div>
+        <div class="rhythm__body"><strong>Demos.</strong> Show what you shipped this week. Honest feedback only.</div>
+      </div>
+      <div class="rhythm__item reveal">
+        <div class="rhythm__day">Sat</div>
+        <div class="rhythm__body"><strong>Open.</strong> Some build, some hike Runyon. No pressure either way.</div>
+      </div>
+    </div>
+
+    <figure class="quote reveal">
+      <blockquote>"I moved in to save on rent and stayed because everyone around me was better than me. That's the whole pitch."</blockquote>
+      <figcaption>— A resident, probably</figcaption>
+    </figure>
+  </section>
+
+  <!-- ============ MEMBERSHIP ============ -->
+  <section class="section" id="membership">
+    <div class="section__head reveal">
+      <div class="eyebrow">Membership</div>
+      <h2>Two ways in.</h2>
+      <p class="section__lede">Pricing shown is a placeholder — set your real numbers before launch.</p>
+    </div>
+
+    <div class="plans">
+      <article class="plan reveal">
+        <h3>Resident</h3>
+        <div class="plan__price">$<span data-price>2,400</span><span class="plan__per">/mo</span></div>
+        <p class="plan__sub">Live and build on the floor.</p>
+        <ul class="ticks">
+          <li>Private furnished apartment</li>
+          <li>Dedicated desk in the studio</li>
+          <li>All utilities, wifi & cleaning</li>
+          <li>Every house dinner, demo & event</li>
+        </ul>
+        <a href="#apply" class="btn btn--block">Apply as a resident</a>
+      </article>
+
+      <article class="plan plan--feature reveal">
+        <div class="plan__flag">Most founders pick this</div>
+        <h3>Desk Member</h3>
+        <div class="plan__price">$<span data-price>800</span><span class="plan__per">/mo</span></div>
+        <p class="plan__sub">Work here, live elsewhere.</p>
+        <ul class="ticks">
+          <li>Dedicated desk in the studio</li>
+          <li>24/7 keycard access</li>
+          <li>Kitchen, lounge & phone rooms</li>
+          <li>Every house dinner, demo & event</li>
+        </ul>
+        <a href="#apply" class="btn btn--block">Apply for a desk</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ NEIGHBORHOOD / AMENITIES ============ -->
+  <section class="section" id="neighborhood">
+    <div class="section__head reveal">
+      <div class="eyebrow">The neighborhood</div>
+      <h2>You're on Museum Row.</h2>
+      <p class="section__lede">
+        Wilshire &amp; Fairfax is the center of the Miracle Mile — culture
+        across the street, the new subway at the door, and the best of LA a
+        short walk away. You won't need a car to have a good day.
+      </p>
+    </div>
+
+    <div class="amenities">
+      <article class="amenity reveal">
+        <div class="amenity__icon">◐</div>
+        <h3>Culture across the street</h3>
+        <ul class="ticks">
+          <li>Academy Museum of Motion Pictures</li>
+          <li>Petersen Automotive Museum</li>
+          <li>LACMA &amp; the La Brea Tar Pits</li>
+          <li>Craft Contemporary</li>
+        </ul>
+      </article>
+
+      <article class="amenity reveal">
+        <div class="amenity__icon">◇</div>
+        <h3>The subway, at the door</h3>
+        <ul class="ticks">
+          <li>Metro D Line — Wilshire/Fairfax station</li>
+          <li>Opened May 2026, brand new</li>
+          <li>Downtown, Koreatown &amp; Beverly Hills by rail</li>
+          <li>Major bus lines along Wilshire</li>
+        </ul>
+      </article>
+
+      <article class="amenity reveal">
+        <div class="amenity__icon">◍</div>
+        <h3>Eat &amp; shop</h3>
+        <ul class="ticks">
+          <li>The Original Farmers Market</li>
+          <li>The Grove</li>
+          <li>Whole Foods at 3rd &amp; Fairfax</li>
+          <li>Restaurants up and down the Mile</li>
+        </ul>
+      </article>
+
+      <article class="amenity reveal">
+        <div class="amenity__icon">◈</div>
+        <h3>Outside &amp; active</h3>
+        <ul class="ticks">
+          <li>Pan Pacific Park</li>
+          <li>Miracle Mile walks &amp; runs</li>
+          <li>Quick hop to the Westside or the Hills</li>
+        </ul>
+      </article>
+
+      <article class="amenity amenity--soon reveal">
+        <span class="amenity__badge">Coming soon</span>
+        <div class="amenity__icon">◆</div>
+        <h3>A gym in the building</h3>
+        <p>We're building a full fitness center downstairs — weights and cardio, with lockers, showers, and bathrooms — so you can train and clean up without ever leaving the building. We'll share details with residents as it takes shape.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ LOCATION ============ -->
+  <section class="section section--tint" id="location">
+    <div class="location">
+      <div class="location__info reveal">
+        <div class="eyebrow">Location</div>
+        <h2>The 7th floor.<br />Miracle Mile, LA.</h2>
+        <p>
+          6100 Wilshire Blvd sits at Wilshire &amp; Fairfax, right on Museum
+          Row — across from the Academy and Petersen museums, steps from the
+          new Metro D Line, and a straight shot to the Westside or Downtown.
+        </p>
+        <address class="location__address">
+          <strong>Hackattack House</strong><br />
+          6100 Wilshire Blvd, 7th Floor<br />
+          Los Angeles, CA 90048
+        </address>
+        <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&query=6100+Wilshire+Blvd+Los+Angeles" target="_blank" rel="noopener">Open in Maps</a>
+      </div>
+      <div class="location__map reveal">
+        <iframe
+          title="Map to 6100 Wilshire Blvd, Los Angeles"
+          src="https://www.google.com/maps?q=6100%20Wilshire%20Blvd%2C%20Los%20Angeles%2C%20CA%2090048&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="section__head reveal">
+      <div class="eyebrow">FAQ</div>
+      <h2>The honest answers.</h2>
+    </div>
+
+    <div class="faq">
+      <details class="faq__item reveal">
+        <summary>Who is this for?</summary>
+        <p>Technical founders and builders working full-time on something real. Pre-seed to Series A. If you're heads-down most days and want the people around you to be too, you'll fit.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>Do I have to live here to be part of it?</summary>
+        <p>No. Residents live in the apartments; desk members work on the floor and go home. Both get the full community — dinners, demos, office hours.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>How long is a stay?</summary>
+        <p>Month-to-month with a one-month minimum. Most residents stay a few months while they're heads-down on a launch or a raise.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>How do you choose who gets in?</summary>
+        <p>We keep the room small and curated. Apply below, we'll set up a quick call and a tour, and we make decisions on a rolling basis.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>What's included in the price?</summary>
+        <p>Everything but your groceries — furnished apartment (for residents), desk, gigabit wifi, utilities, cleaning, kitchen, and every house event.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>Is there parking?</summary>
+        <p>Yes — the building has covered parking, and the Metro Purple Line is steps away if you'd rather skip the car entirely.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ============ APPLY ============ -->
+  <section class="apply" id="apply">
+    <div class="apply__inner reveal">
+      <div class="eyebrow eyebrow--light">Apply</div>
+      <h2>Come build on the 7th floor.</h2>
+      <p>Tell us what you're working on. We read every application and reply within a few days.</p>
+
+      <!-- Wired to Formspree. Posts via AJAX (see script.js) so the visitor
+           stays on the page and sees the inline thank-you below. -->
+      <form class="apply__form" id="applyForm" action="https://formspree.io/f/mgobjron" method="post">
+        <!-- nicer notification subject in your inbox -->
+        <input type="hidden" name="_subject" value="New Hackattack House application" />
+        <!-- honeypot: bots fill this, humans never see it -->
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" />
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required placeholder="Ada Lovelace" />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@startup.com" />
+        </div>
+        <div class="field field--full">
+          <label for="link">Link (site, X, LinkedIn, repo)</label>
+          <input id="link" name="link" type="url" placeholder="https://" />
+        </div>
+        <div class="field field--full">
+          <label for="building">What are you building?</label>
+          <textarea id="building" name="building" rows="3" required placeholder="One or two sentences is plenty."></textarea>
+        </div>
+        <div class="field field--full">
+          <label for="plan">I want to…</label>
+          <select id="plan" name="plan">
+            <option>Live here (Resident)</option>
+            <option>Get a desk (Desk Member)</option>
+            <option>Just take a tour first</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn--block btn--invert">Send application</button>
+        <p class="apply__note" id="applyNote" hidden>Got it — we'll be in touch shortly. ✦</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <span class="nav__mark"></span>
+        Hackattack House
+      </div>
+      <div class="footer__addr">
+        6100 Wilshire Blvd, 7th Floor · Los Angeles, CA 90048
+      </div>
+      <nav class="footer__links">
+        <a href="#space">The Space</a>
+        <a href="#live">Live</a>
+        <a href="#community">Community</a>
+        <a href="#apply">Apply</a>
+        <a href="mailto:hello@hackattackhouse.com">hello@hackattackhouse.com</a>
+      </nav>
+      <div class="footer__copy">
+        © <span id="year"></span> Hackattack House. Built in Los Angeles.
+        <span class="footer__powered">Powered by <a href="https://bestspace.ai" target="_blank" rel="noopener">bestspace.ai</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
